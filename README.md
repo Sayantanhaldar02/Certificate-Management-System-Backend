@@ -1,4 +1,3 @@
-
 # Certificate Management System (CMS)
 
 The Certificate Management System (CMS) is a web-based application designed for managing and verifying certificates. It allows administrators to upload certificates in bulk using Excel files, manage (update/delete) certificate records, and allows users to search for their certificates using a unique certificate ID. Users can view and download their certificates directly from the system.
