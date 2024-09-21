@@ -17,7 +17,7 @@ The Certificate Management System (CMS) is a web-based application designed for 
 - #### Clone the repository:
 
 ```bash
-  git clone https://github.com/your-repo/certificate-management-system.git
+  git clone https://github.com/Sayantanhaldar02/Certificate-Management-System-Backend.git
 ```
 
 - #### Navigate to the backend folder:
