@@ -9,11 +9,45 @@ The Certificate Management System (CMS) is a web-based application designed for 
 
 - The application includes secure authentication and role-based authorization, where only admins have access to certificate management features, while both users and admins can view certificates.
 
-## 🔧 Building Stack:
-- Frontend: React.js, Tailwind CSS, Material UI, Redux, Redux-Toolki
-- Backend: Node.js, Express
-- Database: MongoDB
-- Version Control: Git
+
+## 🚀 Installation & Setup
+
+### Backend Setup (Node.js & Express)
+
+- #### Clone the repository:
+
+```bash
+  git clone https://github.com/your-repo/certificate-management-system.git
+```
+
+- #### Navigate to the backend folder:
+
+```bash
+  cd certificate-management-system/backend
+```
+
+
+- #### Install the required dependencies:
+
+```bash
+  npm install
+```
+
+
+- #### Create a .env file in the root of your backend directory and add the following:
+
+```bash
+  PORT=5000
+  MONGO_URI=your-mongodb-connection-string
+  JWT_SECRET=your-jwt-secret
+```
+
+
+- #### Start the backend server:
+
+```bash
+  npm start
+```
 
 ## 🛣️ API Reference
 
@@ -104,44 +138,6 @@ DELETE /certificate/:certificate_id
 
 #### This reference provides a clear structure for API endpoints, including the necessary parameters and descriptions for each route in the Certificate Management System
 
-## 🚀 Installation & Setup
-
-### Backend Setup (Node.js & Express)
-
-- #### Clone the repository:
-
-```bash
-  git clone https://github.com/your-repo/certificate-management-system.git
-```
-
-- #### Navigate to the backend folder:
-
-```bash
-  cd certificate-management-system/backend
-```
-
-
-- #### Install the required dependencies:
-
-```bash
-  npm install
-```
-
-
-- #### Create a .env file in the root of your backend directory and add the following:
-
-```bash
-  PORT=5000
-  MONGO_URI=your-mongodb-connection-string
-  JWT_SECRET=your-jwt-secret
-```
-
-
-- #### Start the backend server:
-
-```bash
-  npm start
-```
     
 ## 🤝 Contributions
 
