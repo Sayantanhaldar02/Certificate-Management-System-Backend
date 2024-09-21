@@ -23,7 +23,7 @@ The Certificate Management System (CMS) is a web-based application designed for 
 - #### Navigate to the backend folder:
 
 ```bash
-  cd certificate-management-system/backend
+  cd Certificate-Management-System-Backend
 ```
 
 
